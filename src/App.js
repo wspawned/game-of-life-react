@@ -98,7 +98,7 @@ const lifeCycle = (matrix, setRenderMatrix) => {
         matrix = newMatrix;
         setRenderMatrix(getRenderMatrix(matrix));
     };
-    const intervalID = setInterval(periodicFunction, 10);
+    const intervalID = setInterval(periodicFunction, 100);
 };
 
 function getCopyOfMatrix(matrix) {
